@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  width: 100vw;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.rowCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.colCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-desktopp {
+  width: 100%;
+  height: 10vh;
+  background-color: #7A7A7A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.nav-desktopp .liste {
+  list-style: none;
+}
+
+.nav-desktopp .menu .liste  a {
+  color: #000000;
+  font-size: 1.5rem;
+}
+.nav-desktopp .menu .liste a {
+  cursor: pointer !important;
+}
+.nav-desktopp .menu .liste a:hover {
+  background-color: #ff9c00;
+}
+
+/* debut nav partie mobile */
+.nav-mobile {
+  display: none;
+}
+header {
+  width: 100%;
+  height: 50vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 5%;
+}
+/* style pour le slider */
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+
+.slides {
+  display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 16px;
+  border-radius: 0 3px 3px 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 10px 2px 0 2px;
+  display: inline-block;
+  background: #ddd;
+  transition: all 0.3s;
+}
+
+.active,
+.dot:hover {
+  background: #ff9c00;
+}
+main {
+  width: 100%;
+
+  background-color: #ffffff;
+}
+.section {
+  width: 100%;
+  padding: 20px 0;
+}
+.un {
+  background-color:#ff9c00;
+}
+.deux {
+  background-color:#ffffff;
+}
+.intersection {
+  padding-bottom: 20px;
+}
+
+.footer {
+  background-color: #7A7A7A;
+  height: 50vh;
+}
+.iconeSocial,
+.texte {
+  box-shadow: 1px 1px 1px 1px #ff9c00;
+
+  width: 20%;
+  height: 25%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* style pour le formulaire dans la page connexion */
+.form {
+  width: 50%;
+  height: 80%;
+  background: #a9d217;
+  gap: 5px;
+}
+.wrapper {
+  width: 100%;
+  height: 20vh;
+  background: #ffffff;
+}
+
+button {
+  width: 30%;
+  height: 20%;
+  background: #ff9c00;
+  color: #ffffff;
+  border: solid 1px;
+  box-shadow: 1px 1px 1px 5px #464f4e;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+button:hover {
+  background: #49605e;
+}
+
+/* style pour la page panier */
+
+.pagePanier {
+  background-color: #0dc1b2;
+  height: 150px;
+  gap: 0px;
+}
+.containerPanier {
+  width: 70%;
+  height: 100%;
+  background-color: #a9d217;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100%;
+  background-color: #ffffff;
+}
+.ctniconePanier{
+  padding-bottom: 20px;
+}
+.panierIcone{
+  /* je souhaite grossir mon icone */
+  font-size: 4rem;
+  /* position: relative;
+  top: -20px; */
+}
+.btnPanier{
+  width: 100px;
+  height: 25px;
+  background: #0dc1b2;
+  box-shadow: 1px 1px 1px 5px #717171;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.ligneSeparation {
+  width: 100%;
+  height: 5px; 
+  border-bottom: #000 solid 1px;
+ 
+}
+
+/* font */
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+p{
+  font-size: 1.2rem;
+}

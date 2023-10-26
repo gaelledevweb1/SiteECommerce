@@ -1,0 +1,6 @@
+design inspirer de sites existants
+responsive (mobile : 480px)
+
+livrable : compresser,  et envoyer sur discord en message privé au formateur
+
+dead line : vendredi  12h30
